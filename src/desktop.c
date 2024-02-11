@@ -1866,6 +1866,8 @@ static void paint_item(FmDesktop* self, FmDesktopItem* item, cairo_t* cr, GdkRec
 
 #if GTK_CHECK_VERSION(3, 0, 0)
     style = gtk_widget_get_style_context(widget);
+    gtk_style_context_save (style);
+    gtk_style_context_add_class (style, GTK_STYLE_CLASS_VIEW);
 #else
     style = gtk_widget_get_style(widget);
     window = gtk_widget_get_window(widget);
