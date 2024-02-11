@@ -2,10 +2,14 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.63])
-AC_INIT([pcmanfm], [1.3.1], [http://pcmanfm.sf.net/])
+AC_INIT([pcmanfm], [1.3.2], [http://pcmanfm.sf.net/])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign no-dist-gzip dist-xz])
 
 AC_CONFIG_HEADERS([config.h])
+
+dnl Support silent build rules. Disable by either passing --disable-silent-rules
+dnl to configure or passing V=1 to make
+AM_SILENT_RULES([yes])
 
 # Checks for programs.
 AC_ISC_POSIX
@@ -94,6 +98,7 @@ AC_SUBST(GIO_LIBS)
 fm_modules="$gio_modules glib-2.0 pango >= 1.20.0 libfm >= 1.0"
 case "$ac_with_gtk" in
     3|3.*)
+        CFLAGS="$CFLAGS -Wno-deprecated-declarations"
         fm_modules="$fm_modules gtk+-3.0 libfm-gtk3 >= 1.0.1"
         ;;
     *)

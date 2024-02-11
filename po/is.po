@@ -1,26 +1,27 @@
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Icelandic translation for Pcmanfm package.
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Pcmanfm package.
+# Sveinn í Felli <sv1@fellsnet.is>, 2014, 2021.
 #
-# Sveinn í Felli <sv1@fellsnet.is>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-21 22:24+0300\n"
-"PO-Revision-Date: 2014-12-08 09:30+0000\n"
-"Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
+"POT-Creation-Date: 2023-08-01 16:44+0200\n"
+"PO-Revision-Date: 2021-03-04 09:35+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
+"X-Generator: Lokalize 2.0\n"
 "X-POOTLE-MTIME: 1418031056.000000\n"
 
 #: ../data/ui/about.glade.in.h:1
-msgid "Copyright (C) 2009 - 2018"
-msgstr "Höfundarréttur (C) 2009- 2016"
+msgid "Copyright (C) 2009 - 2023"
+msgstr "Höfundarréttur (C) 2009- 2023"
 
 #. Please replace this line with your own names, one name per line.
 #: ../data/ui/about.glade.in.h:3
@@ -136,27 +137,27 @@ msgstr "Fylla einungis með bakgrunnslit"
 
 #: ../data/ui/desktop-pref.glade.h:27
 msgid "Stretch to fill the entire monitor area"
-msgstr ""
+msgstr "Teygja til að fylla upp í allt skjásvæðið"
 
 #: ../data/ui/desktop-pref.glade.h:28
 msgid "Stretch to fit the monitor area"
-msgstr ""
+msgstr "Teygja til að samsvara skjásvæði"
 
 #: ../data/ui/desktop-pref.glade.h:29
 msgid "Center unscaled image on the monitor"
-msgstr ""
+msgstr "Miðja ókvarðaða mynd á skjánum"
 
 #: ../data/ui/desktop-pref.glade.h:30
 msgid "Tile the image to fill the entire monitor area"
-msgstr ""
+msgstr "Flísaleggja myndina til að fylla upp í allt skjásvæðið"
 
 #: ../data/ui/desktop-pref.glade.h:31
 msgid "Stretch and crop to fill the monitor area"
-msgstr ""
+msgstr "Teygja og utansníða til að fylla upp í allt skjásvæðið"
 
 #: ../data/ui/desktop-pref.glade.h:32
 msgid "Stretch to fill the complete screen"
-msgstr ""
+msgstr "Teygja til að fylla upp í allan skjáinn"
 
 #: ../data/ui/pref.glade.h:1
 msgid "Open in current tab"
@@ -204,7 +205,7 @@ msgstr "S_taðfesta áður en skrár eru færðar í \"ruslið\""
 
 #: ../data/ui/pref.glade.h:12
 msgid "Don't ask options on _launch executable file"
-msgstr ""
+msgstr "Ekki spyrja um va_lkosti við ræsingu keyrsluskráa"
 
 #: ../data/ui/pref.glade.h:13
 msgid "_Bookmarks:"
@@ -309,7 +310,7 @@ msgstr "Fela 'loka flipa' hnappa"
 
 #: ../data/ui/pref.glade.h:41
 msgid "Al_ways show the tab bar"
-msgstr "Alltaf sýna fli_paslá"
+msgstr "Alltaf sýna fli_pastiku"
 
 #: ../data/ui/pref.glade.h:42
 msgid "_Maximum width of tab label:"
@@ -388,7 +389,7 @@ msgstr "E_kki sýna tiltæka valkosti fyrir eftirfarandi gerðir miðla:"
 
 #: ../data/ui/pref.glade.h:61
 msgid "_Remove selected"
-msgstr ""
+msgstr "Fja_rlægja valið"
 
 #: ../data/ui/pref.glade.h:62
 msgid "_Open mounted removable media in new tab instead of new window"
@@ -396,11 +397,11 @@ msgstr ""
 
 #: ../data/ui/pref.glade.h:63
 msgid "When removable medium unmounted:"
-msgstr ""
+msgstr "Þegar útskiptanlegur miðill er aftengdur:"
 
 #: ../data/ui/pref.glade.h:64
 msgid "Clos_e tab containing removable medium"
-msgstr ""
+msgstr "Lo_ka flipa sem inniheldur útskiptanlegan miðil"
 
 #: ../data/ui/pref.glade.h:65
 msgid "Change folder in the tab to _Home Folder"
@@ -424,16 +425,16 @@ msgstr "Skjá_hermir:"
 
 #: ../data/ui/pref.glade.h:70
 msgid "_Switch user command:"
-msgstr ""
+msgstr "_Skipun til að skipta um notanda:"
 
 #. Application command to format some drive
 #: ../data/ui/pref.glade.h:72
 msgid "_Format command:"
-msgstr ""
+msgstr "Skipun til að _forsníða:"
 
 #: ../data/ui/pref.glade.h:73
 msgid "A_rchiver integration:"
-msgstr ""
+msgstr "Samþætting safnsk_ráastjóra:"
 
 #: ../data/ui/pref.glade.h:74
 msgid "<b>Templates</b>"
@@ -476,7 +477,7 @@ msgstr ""
 
 #: ../data/ui/pref.glade.h:86
 msgid "_Use current"
-msgstr ""
+msgstr "N_ota fyrirliggjandi"
 
 #: ../data/ui/pref.glade.h:87
 msgid "_Advanced"
@@ -484,11 +485,11 @@ msgstr "Í_tarlegt"
 
 #: ../data/ui/pref.glade.h:88
 msgid "<b>_Do not load modules matching:</b>"
-msgstr ""
+msgstr "<b>Ekki _hlaða inn einingum sem samsvara:</b>"
 
 #: ../data/ui/pref.glade.h:89
 msgid "<b>_Load these modules anyway:</b>"
-msgstr ""
+msgstr "<b>H_laða samt inn þessum einingum:</b>"
 
 #: ../data/ui/pref.glade.h:90
 msgid "Modules"
@@ -496,7 +497,7 @@ msgstr "Einingar"
 
 #: ../data/ui/pref.glade.h:91
 msgid "Auto (move if on the same FS, copy otherwise)"
-msgstr ""
+msgstr "Sjálfvirkt (færa ef á sama skráakerfi, annars afrita)"
 
 #: ../data/ui/pref.glade.h:92
 msgid "Copy"
@@ -520,7 +521,7 @@ msgstr "Þjöppuð sýn"
 
 #: ../data/ui/pref.glade.h:97
 msgid "Thumbnail view"
-msgstr ""
+msgstr "Smámyndasýn"
 
 #: ../data/ui/pref.glade.h:98
 msgid "Detailed list view"
@@ -528,15 +529,15 @@ msgstr "Nákvæm listasýn"
 
 #: ../data/ui/autorun.glade.h:1
 msgid "Removable medium is inserted"
-msgstr ""
+msgstr "Útskiptanlegur miðill er settur inn"
 
 #: ../data/ui/autorun.glade.h:2
 msgid "<b>Removable medium is inserted</b>"
-msgstr ""
+msgstr "<b>Útskiptanlegur miðill er settur inn</b>"
 
 #: ../data/ui/autorun.glade.h:3
 msgid "Type of medium:"
-msgstr ""
+msgstr "Gerð gagnamiðils"
 
 #: ../data/ui/autorun.glade.h:4
 msgid "Detecting..."
@@ -544,19 +545,19 @@ msgstr "Leita..."
 
 #: ../data/ui/autorun.glade.h:5
 msgid "Please select the action you want to perform:"
-msgstr ""
+msgstr "Veldu hvaða aðgerð þú vilt framkvæma:"
 
 #: ../data/ui/autorun.glade.h:6
 msgid "_Always perform this action on this media type"
-msgstr ""
+msgstr "Alltaf framkvæma þessa aðgerð á þessa gerð gagnamiðils"
 
 #: ../data/ui/connect.glade.h:1
 msgid "Connect to remote server"
-msgstr ""
+msgstr "Tengjast fjartengdum netþjóni"
 
 #: ../data/ui/connect.glade.h:2
 msgid "<b>Specify remote folder to connect</b>"
-msgstr ""
+msgstr "<b>Tilgreindu fjartengda möppu til að tengjast</b>"
 
 #: ../data/ui/connect.glade.h:3
 msgid "_Type:"
@@ -632,7 +633,7 @@ msgstr "Jafna við _hnitanet"
 
 #: ../src/desktop.c:974
 msgid "Activate file"
-msgstr ""
+msgstr "Virkja skrá"
 
 #: ../src/desktop.c:976
 msgid "Show file menu"
@@ -656,9 +657,8 @@ msgid "_New Window"
 msgstr "_Nýr gluggi"
 
 #: ../src/main-win-ui.c:190
-#, fuzzy
 msgid "Open new file manager window"
-msgstr "Opna í skráastjóra"
+msgstr "Opna í nýjum skráastjóraglugga"
 
 #: ../src/main-win-ui.c:191
 msgid "New T_ab"
@@ -706,7 +706,7 @@ msgstr "Flytja í _Rusl"
 
 #: ../src/main-win-ui.c:205
 msgid "Copy Pat_h(s)"
-msgstr ""
+msgstr "A_frita slóð(ir)"
 
 #: ../src/main-win-ui.c:206
 msgid "R_ename..."
@@ -750,7 +750,7 @@ msgstr "Endu_rhlaða möppu"
 
 #: ../src/main-win-ui.c:216
 msgid "Reload current folder"
-msgstr ""
+msgstr "Endurlesa þessa möppu"
 
 #: ../src/main-win-ui.c:217
 msgid "Tool_bar"
@@ -758,7 +758,7 @@ msgstr "Ver_kfærastika"
 
 #: ../src/main-win-ui.c:218
 msgid "Pat_h Bar"
-msgstr ""
+msgstr "S_lóðastika"
 
 #: ../src/main-win-ui.c:219
 msgid "Side _Pane"
@@ -772,6 +772,12 @@ msgstr "Skoðunarhamur fyrir möppur"
 #: ../src/main-win-ui.c:222
 msgid "S_ort Files"
 msgstr "_Raða skrám"
+
+#: ../src/main-win-ui.c:223
+#, fuzzy
+#| msgid "Zoom O_ut"
+msgid "Zoom _In"
+msgstr "R_enna frá"
 
 #: ../src/main-win-ui.c:224
 msgid "Zoom O_ut"
@@ -787,7 +793,7 @@ msgstr "_Hjálp"
 
 #: ../src/main-win-ui.c:231
 msgid "_Keyboard Navigation"
-msgstr ""
+msgstr "Flakk með ly_klaborði"
 
 #: ../src/main-win-ui.c:232
 msgid "_Go"
@@ -799,7 +805,7 @@ msgstr "Fyrri ma_ppa"
 
 #: ../src/main-win-ui.c:233
 msgid "Return to previous folder in history"
-msgstr ""
+msgstr "Fara aftur í fyrri möppu í ferli"
 
 #: ../src/main-win-ui.c:234
 msgid "_Next Folder"
@@ -807,7 +813,7 @@ msgstr "_Næsta mappa"
 
 #: ../src/main-win-ui.c:234
 msgid "Go forward to next folder in history"
-msgstr ""
+msgstr "Fara áfram á næstu möppu í ferli"
 
 #: ../src/main-win-ui.c:235
 msgid "Pa_rent Folder"
@@ -839,11 +845,11 @@ msgstr "Opna ruslið"
 
 #: ../src/main-win-ui.c:239
 msgid "Filesyste_m Root"
-msgstr ""
+msgstr "_Rót skráarkerfis"
 
 #: ../src/main-win-ui.c:239
 msgid "Go fo filesystem root"
-msgstr ""
+msgstr "Fara á rót skráarkerfis"
 
 #: ../src/main-win-ui.c:240
 msgid "_Applications"
@@ -851,11 +857,11 @@ msgstr "_Forrit"
 
 #: ../src/main-win-ui.c:240
 msgid "Go to root of applications menu folder"
-msgstr ""
+msgstr "Fara á rót möppu forritavalmyndar"
 
 #: ../src/main-win-ui.c:241
 msgid "Go to list of devices connected to the computer"
-msgstr ""
+msgstr "Fara í lista yfir tæki sem eru tengd við tölvuna"
 
 #: ../src/main-win-ui.c:242
 msgid "Net_work"
@@ -863,7 +869,7 @@ msgstr "_Netkerfi"
 
 #: ../src/main-win-ui.c:242
 msgid "Go to list of places on the network"
-msgstr ""
+msgstr "Fara í lista yfir staði á netkerfinu"
 
 #: ../src/main-win-ui.c:243
 msgid "_Go to Location..."
@@ -879,7 +885,7 @@ msgstr "Opna glugga fyrir möppuna til að sjá fjartengdu staðsetninguna"
 
 #: ../src/main-win-ui.c:245
 msgid "Go to the path in the location bar"
-msgstr ""
+msgstr "Fara á slóðina í staðsetningarstikunni"
 
 #: ../src/main-win-ui.c:246
 msgid "_Bookmarks"
@@ -929,7 +935,7 @@ msgstr "Sýna _falið"
 #. Note to translators: this save is meant for folder's settings such as sort
 #: ../src/main-win-ui.c:278
 msgid "Preserve This Folder's Settings"
-msgstr ""
+msgstr "Varðveita stillingar þessarar möppu"
 
 #: ../src/main-win-ui.c:279
 msgid ""
@@ -966,7 +972,7 @@ msgstr "Sýn_a stöðustiku"
 
 #: ../src/main-win-ui.c:288
 msgid "_Dual Pane Mode"
-msgstr ""
+msgstr "Tveggja-spjal_da-sýn"
 
 #: ../src/main-win-ui.c:288
 msgid "Show two panels with folder views"
@@ -1099,101 +1105,101 @@ msgstr ""
 msgid "Add to Bookmarks"
 msgstr "Bæta við bókamerki"
 
-#: ../src/main-win.c:2587
+#: ../src/main-win.c:2589
 msgid "Select filter"
 msgstr "Veldu síu"
 
-#: ../src/main-win.c:2588
+#: ../src/main-win.c:2590
 msgid "Choose a new shell pattern to show files:"
 msgstr ""
 
 #. options only acceptable by first pcmanfm instance. These options are not passed through IPC
-#: ../src/pcmanfm.c:78
+#: ../src/pcmanfm.c:79
 msgid "Name of configuration profile"
 msgstr "Nafn stillingasniðs"
 
-#: ../src/pcmanfm.c:78
+#: ../src/pcmanfm.c:79
 msgid "PROFILE"
 msgstr "SNIÐ"
 
-#: ../src/pcmanfm.c:79
+#: ../src/pcmanfm.c:80
 msgid "Run PCManFM as a daemon"
 msgstr "Keyra PCManFM í miðlaraham (deamon)"
 
-#: ../src/pcmanfm.c:80
+#: ../src/pcmanfm.c:81
 msgid "No function. Just to be compatible with nautilus"
 msgstr ""
 
 #. options that are acceptable for every instance of pcmanfm and will be passed through IPC.
-#: ../src/pcmanfm.c:83
+#: ../src/pcmanfm.c:84
 msgid "Launch desktop manager"
 msgstr "Ræsa skjáborðastjóra"
 
-#: ../src/pcmanfm.c:84
+#: ../src/pcmanfm.c:85
 msgid "Turn off desktop manager if it's running"
 msgstr ""
 
-#: ../src/pcmanfm.c:85
+#: ../src/pcmanfm.c:86
 msgid "Open desktop preference dialog"
 msgstr ""
 
-#: ../src/pcmanfm.c:86
+#: ../src/pcmanfm.c:87
 msgid "Use --desktop option only for one screen"
 msgstr ""
 
-#: ../src/pcmanfm.c:87
+#: ../src/pcmanfm.c:88
 msgid "Set desktop wallpaper from image FILE"
 msgstr ""
 
-#: ../src/pcmanfm.c:87
+#: ../src/pcmanfm.c:88
 msgid "FILE"
 msgstr "SKRÁ"
 
 #. don't translate list of modes in description, please
-#: ../src/pcmanfm.c:89
+#: ../src/pcmanfm.c:90
 msgid ""
 "Set mode of desktop wallpaper. MODE=(color|stretch|fit|crop|center|tile|"
 "screen)"
 msgstr ""
 
-#: ../src/pcmanfm.c:89
+#: ../src/pcmanfm.c:90
 msgid "MODE"
 msgstr "HAMUR"
 
-#: ../src/pcmanfm.c:90
+#: ../src/pcmanfm.c:91
 msgid "Open Preferences dialog on the page N"
 msgstr ""
 
-#: ../src/pcmanfm.c:90
+#: ../src/pcmanfm.c:91
 msgid "N"
 msgstr "N"
 
-#: ../src/pcmanfm.c:91
+#: ../src/pcmanfm.c:92
 msgid "Open new window"
 msgstr "Opna nýjan glugga"
 
-#: ../src/pcmanfm.c:93
+#: ../src/pcmanfm.c:94
 msgid "Open a Find Files window"
 msgstr "Opna leitarglugga"
 
-#: ../src/pcmanfm.c:95
+#: ../src/pcmanfm.c:96
 msgid "Window role for usage by window manager"
 msgstr ""
 
-#: ../src/pcmanfm.c:95
+#: ../src/pcmanfm.c:96
 msgid "ROLE"
 msgstr "HLUTVERK"
 
-#: ../src/pcmanfm.c:96
+#: ../src/pcmanfm.c:97
 msgid "[FILE1, FILE2,...]"
 msgstr "[SKRÁ1, SKRÁ2,...]"
 
 #. FIXME: add "on this X screen/monitor" into diagnostics
-#: ../src/pcmanfm.c:376
+#: ../src/pcmanfm.c:378
 msgid "Desktop manager is not active."
 msgstr "Skjáborðsstjórnun er ekki virk."
 
-#: ../src/pcmanfm.c:627
+#: ../src/pcmanfm.c:629
 msgid "Terminal emulator is not set."
 msgstr "Skjáhermir er ekki valinn."
 
@@ -1201,26 +1207,40 @@ msgstr "Skjáhermir er ekki valinn."
 msgid "Open in New T_ab"
 msgstr "Opn_a í nýjum flipa"
 
-#: ../src/tab-page.c:411
+#. Note to translators: this is the information (name, size, type)
+#. about the selected file in the status bar
+#: ../src/tab-page.c:378
+#, c-format
+msgid "\"%s\" (%s) %s"
+msgstr ""
+
+#. Note to translators: this is the information (name, type)
+#. about the selected file in the status bar
+#: ../src/tab-page.c:387
+#, c-format
+msgid "\"%s\" %s"
+msgstr ""
+
+#: ../src/tab-page.c:415
 #, c-format
 msgid "%d item selected"
 msgid_plural "%d items selected"
 msgstr[0] "%d atriði valið"
 msgstr[1] "%d atriði valin"
 
-#: ../src/tab-page.c:741
+#: ../src/tab-page.c:745
 #, c-format
 msgid "Free space: %s (Total: %s)"
 msgstr "Laust pláss: %s (alls: %s)"
 
-#: ../src/tab-page.c:761
+#: ../src/tab-page.c:765
 #, c-format
 msgid "%d item"
 msgid_plural "%d items"
 msgstr[0] "%d atriði"
 msgstr[1] "%d atriði"
 
-#: ../src/tab-page.c:762
+#: ../src/tab-page.c:766
 #, c-format
 msgid " (%d hidden)"
 msgid_plural " (%d hidden)"
@@ -1229,7 +1249,7 @@ msgstr[1] " (%d falin)"
 
 #: ../src/pref.c:515
 msgid "Add to Modules Blacklist"
-msgstr ""
+msgstr "Bæta á lista yfir óleyfilegar einingar"
 
 #: ../src/pref.c:516
 msgid "Enter a blacklisted module mask:"
@@ -1237,15 +1257,15 @@ msgstr ""
 
 #: ../src/pref.c:607
 msgid "Add to Modules Whitelist"
-msgstr ""
+msgstr "Bæta á lista yfir leyfilegar einingar"
 
 #: ../src/pref.c:608
 msgid "Enter a whitelisted module mask:"
 msgstr ""
 
 #: ../data/pcmanfm.desktop.in.h:1
-msgid "File Manager PCManFM"
-msgstr "PCManFM skráastjóri"
+msgid "PCMan File Manager"
+msgstr "PCMan skráastjóri"
 
 #: ../data/pcmanfm.desktop.in.h:2
 msgid "File Manager"
@@ -1257,4 +1277,4 @@ msgstr "Vafra um skráakerfið og breyta skrám"
 
 #: ../data/pcmanfm-desktop-pref.desktop.in.h:2
 msgid "Change desktop wallpapers and behavior of desktop manager"
-msgstr ""
+msgstr "Breyta bakgrunnsmynd skjáborðsins og hegðun skjáborðastjóra"
